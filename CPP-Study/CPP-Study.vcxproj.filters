@@ -10,6 +10,9 @@
     <Filter Include="include\object-oriented">
       <UniqueIdentifier>{8e835bc1-a3b0-484a-b35e-8c050daaa8e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\NewFilter1">
+      <UniqueIdentifier>{71864925-e65f-440b-b9f4-c7a3cc5191b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +21,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="object-oriented\include\derive.h">
+      <Filter>include\object-oriented</Filter>
+    </ClInclude>
+    <ClInclude Include="object-oriented\include\virtualMethod.h">
+      <Filter>include\object-oriented</Filter>
+    </ClInclude>
+    <ClInclude Include="object-oriented\include\virtualDestructors.h">
       <Filter>include\object-oriented</Filter>
     </ClInclude>
   </ItemGroup>

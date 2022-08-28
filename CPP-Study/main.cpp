@@ -1,9 +1,7 @@
 
-#include <derive.h>
-
-
-
-
+//#include <derive.h>
+#include <virtualMethod.h>
+//#include <virtualDestructors.h>
 
 void main() {
 

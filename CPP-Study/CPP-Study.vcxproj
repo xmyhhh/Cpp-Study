@@ -23,6 +23,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="object-oriented\include\derive.h" />
+    <ClInclude Include="object-oriented\include\virtualDestructors.h" />
+    <ClInclude Include="object-oriented\include\virtualMethod.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
