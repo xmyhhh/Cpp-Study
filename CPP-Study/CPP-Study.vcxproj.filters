@@ -10,23 +10,41 @@
     <Filter Include="include\object-oriented">
       <UniqueIdentifier>{8e835bc1-a3b0-484a-b35e-8c050daaa8e7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\NewFilter1">
+    <Filter Include="include\delete-operator">
       <UniqueIdentifier>{71864925-e65f-440b-b9f4-c7a3cc5191b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointer">
+      <UniqueIdentifier>{8b332afb-49bd-4967-81c1-d5c570bdfb17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pointer\opaque-pointer">
+      <UniqueIdentifier>{8d4f05ea-b3ae-4182-a86f-0c95fe74a5be}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="pointer\opaque-pointer\Image_apple.cpp">
+      <Filter>include\pointer\opaque-pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer\opaque-pointer\Image_windows.cpp">
+      <Filter>include\pointer\opaque-pointer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="object-oriented\include\derive.h">
+    <ClInclude Include="operator\delete-operator\delete-operator.h">
+      <Filter>include\delete-operator</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer\opaque-pointer\opaque-pointer-main.h">
+      <Filter>include\pointer\opaque-pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="object-oriented\derive-main.h">
       <Filter>include\object-oriented</Filter>
     </ClInclude>
-    <ClInclude Include="object-oriented\include\virtualMethod.h">
+    <ClInclude Include="object-oriented\virtual-destructors-main.h">
       <Filter>include\object-oriented</Filter>
     </ClInclude>
-    <ClInclude Include="object-oriented\include\virtualDestructors.h">
+    <ClInclude Include="object-oriented\virtual-method-main.h">
       <Filter>include\object-oriented</Filter>
     </ClInclude>
   </ItemGroup>
