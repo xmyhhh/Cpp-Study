@@ -1,7 +1,6 @@
 #include"opaque-pointer-main.h"
 #include<iostream>
-
-
+#ifdef Platform_Windows
 struct SImageInfo
 {
     // Windows specific DataSet
@@ -15,4 +14,4 @@ void CImage::InitImageInfo()
     pImageInfo = new SImageInfo;
     // Initialize windows specific info here
 }
-
+#endif

@@ -1,13 +1,15 @@
 #pragma once
 
-
+#define Platform_Windows
 class CImage
 {
 public:
     CImage() {
         InitImageInfo();
     };
-    ~CImage();
+    ~CImage() {
+
+    }
     struct SImageInfo* pImageInfo;
     void Rotate(double angle);
     void Scale(double scaleFactorX,

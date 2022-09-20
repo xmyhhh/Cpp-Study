@@ -1,5 +1,6 @@
 #include"opaque-pointer-main.h"
 #include<iostream>
+#ifdef Platform_Apple
 struct SImageInfo
 {
 	// Apple specific DataSet
@@ -13,3 +14,5 @@ void CImage::InitImageInfo()
 
 	// Initialize apple specific info here
 }
+#endif
+
