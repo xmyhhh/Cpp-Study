@@ -1,14 +1,13 @@
-﻿#pragma once
+#pragma once
+#pragma once
 
 #include<iostream>
 using namespace std;
 
 class base {
 public:
-	virtual void print()
-	{
-		cout << "print base class\n";
-	}
+	virtual void print() = 0;
+
 
 	void show()
 	{
@@ -18,7 +17,7 @@ public:
 
 class derived : public base {
 public:
-	void print()
+	void  print() 
 	{
 		cout << "print derived class\n";
 	}
@@ -37,11 +36,13 @@ public:
 		derived d;
 		bptr = &d;
 
-		bptr->base::print();
 		bptr->print();
-		d.print();
+		bptr->base::print();
 
-		bptr->show(); //如果不加virtual关键字，同名方法直接没有关系
-		d.show();
+		// Non-virtual function, binded at compile time
+		//bptr->show();
+
+		d.print();
 	}
+
 };

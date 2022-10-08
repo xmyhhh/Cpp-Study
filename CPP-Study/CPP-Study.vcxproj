@@ -27,6 +27,7 @@
     <ClInclude Include="object-oriented\derive-main.h" />
     <ClInclude Include="object-oriented\virtual-destructors-main.h" />
     <ClInclude Include="object-oriented\virtual-method-main.h" />
+    <ClInclude Include="object-oriented\virtual-method-pure-main.h" />
     <ClInclude Include="operator\delete-operator\delete-operator.h" />
     <ClInclude Include="pointer\opaque-pointer\opaque-pointer-main.h" />
   </ItemGroup>

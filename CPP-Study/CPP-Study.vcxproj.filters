@@ -47,5 +47,8 @@
     <ClInclude Include="object-oriented\virtual-method-main.h">
       <Filter>include\object-oriented</Filter>
     </ClInclude>
+    <ClInclude Include="object-oriented\virtual-method-pure-main.h">
+      <Filter>include\object-oriented</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
