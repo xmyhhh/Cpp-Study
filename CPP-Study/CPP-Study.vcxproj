@@ -24,6 +24,7 @@
     <ClCompile Include="pointer\opaque-pointer\Image_windows.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="function\function-return-instance-main.h" />
     <ClInclude Include="object-oriented\derive-main.h" />
     <ClInclude Include="object-oriented\virtual-destructors-main.h" />
     <ClInclude Include="object-oriented\virtual-method-main.h" />

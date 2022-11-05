@@ -19,6 +19,9 @@
     <Filter Include="include\pointer\opaque-pointer">
       <UniqueIdentifier>{8d4f05ea-b3ae-4182-a86f-0c95fe74a5be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\function">
+      <UniqueIdentifier>{12eda41d-dad4-43a2-aa6b-fd916d4b5e9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="object-oriented\virtual-method-pure-main.h">
       <Filter>include\object-oriented</Filter>
+    </ClInclude>
+    <ClInclude Include="function\function-return-instance-main.h">
+      <Filter>include\function</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
