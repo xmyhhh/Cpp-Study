@@ -22,6 +22,15 @@
     <Filter Include="include\function">
       <UniqueIdentifier>{12eda41d-dad4-43a2-aa6b-fd916d4b5e9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="include\pointer\function-pointer">
+      <UniqueIdentifier>{22c2b90c-b000-430c-be0b-478c944bea5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\other">
+      <UniqueIdentifier>{2c1ef2f5-03eb-4a4c-a0f7-04f2458d445f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\other\assert">
+      <UniqueIdentifier>{c1c431f8-ffcb-4639-a2d7-8ff7aa707f16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -55,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="function\function-return-instance-main.h">
       <Filter>include\function</Filter>
+    </ClInclude>
+    <ClInclude Include="pointer\function-pointer\fucntion-pointer-main.h">
+      <Filter>include\pointer\function-pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="other\assert\assert-main.h">
+      <Filter>include\other\assert</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
