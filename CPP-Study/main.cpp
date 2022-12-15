@@ -18,7 +18,8 @@
 
 //#include "operator/assignment-operator/assignment-operator-main.h"
 
-#include "other/assert/assert-main.h"
+#include "other/template/template-main.h"
+//#include "other/assert/assert-main.h"
 int main() {
 
 	Solution solution;

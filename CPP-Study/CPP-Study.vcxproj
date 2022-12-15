@@ -31,6 +31,7 @@
     <ClInclude Include="object-oriented\virtual-method-pure-main.h" />
     <ClInclude Include="operator\delete-operator\delete-operator.h" />
     <ClInclude Include="other\assert\assert-main.h" />
+    <ClInclude Include="other\template\template-main.h" />
     <ClInclude Include="pointer\function-pointer\fucntion-pointer-main.h" />
     <ClInclude Include="pointer\opaque-pointer\opaque-pointer-main.h" />
   </ItemGroup>
